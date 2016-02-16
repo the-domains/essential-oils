@@ -1,8 +1,26 @@
-layout_spectrum: 0.2925858
-typography_spectrum: 0.7899196
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.5681059
   lightness: 0.01373251
   brandStrength: 0.3456459
+  brandColors:
+    - '#2F180D'
+    - '#FBFAFC'
+    - '#771E4B'
+    - '#CF7FB4'
+    - '#F3C76E'
   rhythmicContrast: 0.2960185
+typography_spectrum: 0.2957447
+layout_spectrum: 0.2925858
 name: Essential Oils
